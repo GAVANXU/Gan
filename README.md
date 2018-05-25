@@ -1,3 +1,16 @@
+这是我在github上找一个项目放在这里主要是用于记录学习历程，原文位于https://github.com/junyanz/CycleGAN
+
+训练：
+ python3 train.py --dataroot ./datasets/hat --name hat_cyclegan --model cycle_gan --display_id 0
+
+测试：（单向测试)
+  python3 test.py --dataroot ./datasets/hat/test --name hat_cyclegan --model test --which_direction AtoB --dataset_mode single
+
+
+
+
+
+
 <img src='imgs/horse2zebra.gif' align="right" width=384>
 
 <br><br><br>
